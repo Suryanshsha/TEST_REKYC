@@ -1,0 +1,49 @@
+.digiLocker-btn {
+    background-color: #4ecb71;
+  }
+  .verification-text {
+    font-size: 4rem;
+    line-height: 2.4rem;
+  }
+  @media screen and (min-width: 1000px) {
+    .digilocker-page {
+      padding: 0% 10%;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .digiLocker-btn {
+      font-size: 13px;
+      padding: 6px 10px;
+    }
+    .verification-text {
+      font-size: 2rem;
+      line-height: 3rem;
+    }
+  }
+  
+  @media screen and (max-width: 550px) {
+    .digilocker-page {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+    .digiMob-btn {
+      background-color: #4ecb71;
+      font-size: 13px;
+      padding: 6px 10px;
+      margin-top: 10px;
+    }
+  
+    .verification-text {
+      font-size: 40px;
+    }
+    .verification-head {
+      padding: 0rem 0rem;
+    }
+    .verification-left {
+      // padding: 2rem 0rem 1rem 0rem ;
+    }
+  }
+  

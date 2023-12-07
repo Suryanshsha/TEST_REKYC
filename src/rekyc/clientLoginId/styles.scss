@@ -1,0 +1,26 @@
+
+.numberInput{
+    border: 1px solid white;
+    background: rgba(0,0,0,0.3);
+}
+@media screen and (min-width:740px) {
+    .note{
+        display: none;
+    }
+}
+@media screen and (max-width:740px) {
+    .note-main{
+        display: none;
+    }
+}
+@media screen and (max-width:810px) {
+    .right-content{
+        font-size:x-large;
+    }
+    .ekyc-container{
+        width: 100%;
+    }
+    .ekyc-img{
+        width: 80%;
+    }
+}

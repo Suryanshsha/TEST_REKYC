@@ -1,0 +1,138 @@
+.pan-card {
+    background: url(../../assests/verification/panCardImage.jpg);
+    background-repeat: no-repeat;
+
+}
+
+.verification-page {
+    background-color: #1F1F1F;
+}
+
+.verified-btn {
+    background-color: #4ECB71;
+    font-size: 22px;
+}
+
+@media screen and (min-width:1000px) {
+    .left-up {
+        font-size: 4rem;
+        line-height: 2.4rem;
+    }
+
+    .left-mid {
+        font-size: 2.75rem;
+        line-height: 5rem;
+    }
+
+    .left-down {
+        font-size: 10px;
+    }
+
+    .right-box {
+        width: 80%;
+    }
+
+    .verified-tick {
+        width: 55px;
+    }
+    .verification-page{
+        padding: 0% 10%;
+    }
+}
+
+
+
+@media screen and (max-width:1280px) {
+    .aadhar-image {
+        margin: 4px;
+    }
+
+    .aadhar-info {
+        font-size: 12px;
+    }
+
+    .aadhar-info p {
+        margin: 3px 0px;
+    }
+
+    .pan-heading1 {
+        font-size: 14px;
+    }
+
+    .pan-heading {
+        font-size: 10px;
+    }
+
+    .pan-image {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .pan-no {
+        font-size: 13px;
+    }
+
+    .pan-qr {
+        width: 80px;
+        height: 80px;
+        margin: 5px;
+    }
+
+    .pan-info {
+        font-size: 15px;
+    }
+
+    .pan-info p {
+        margin: 1px 0px;
+    }
+}
+
+@media screen and (max-width:829px) {
+    .pan-heading {
+        font-size: 8px;
+    }
+
+    .left-down {
+        font-size: 12px;
+    }
+
+    .verified-left {
+        padding: 0% 8%;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .verification-page {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .left-head {
+        width: 100%;
+        text-align: start;
+        margin-top: 12px;
+    }
+
+    .right-head {
+        width: 100%;
+        padding: 0% 3%;
+
+    }
+
+    .left-up {
+        font-size: 50px;
+    }
+
+    .left-mid {
+        font-size: 32px;
+        margin-top: 12px;
+    }
+
+    .left-down {
+        font-size: 13px;
+    }
+    
+}
