@@ -46,7 +46,7 @@ function Rekyc() {
     const token = sessionStorage.getItem("token");
     if (token?.length > 15) return true;
     return false;
-  };
+  } ;
   const handleFetchData = async (url) => {
     try {
       const response = await fetchData(url);
